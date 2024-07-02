@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+<link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="index.html">
+<link rel="stylesheet" href="contacto.html">
+</head>
+ 
+<body>
+    <nav>
+        <img src="imagenes/M5-logo-azul.svg" id="logo">
+      <a href="index.html" class="activo"> Home</a>    
+      <a class="activo" href="contacto.html" > Contacto </a> 
+    </nav>
+  <main>
+    <p>¿Querés que nos contactemos con vos?</p>
+     
+    <h2> Dejanos tu consulta:</h2>
+
+ <form action="codigo.php" method="post">
+  
+          <label for="name"> Nombre Completo</label>
+          <input type="text"  id="name"  required> <br>
+
+          <label class="required" for="email"> Email </label>
+          <input type= "email" id="email" required placeholder="Correo electrónico"> <br>
+
+          <label for="comentario">Comentario</label>
+          <textarea name="comentario" id="comentario"></textarea> <br>
+
+          <input type="reset"  id="reset" class="boton"  >   <input type="submit" class="boton" id="enviar">
+
+  </form>
+
+  </main>
+
+</body>
+</html>
